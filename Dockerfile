@@ -15,6 +15,7 @@ RUN apt-get update -y && \
     php5-pgsql \
     php5-redis \
     php5-sqlite \
+    php5-mongo \
     php5-gd && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
