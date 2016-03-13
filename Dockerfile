@@ -18,7 +18,7 @@ RUN apt-get update -y && \
     php5-dev make php-pear \
     php5-gd && \
     apt-get clean && \
-    rm -rf /var/lib/apt/lists/* && \
+    rm -rf /var/lib/apt/lists/* 
     #pecl install mongodb && \
     #echo "extension=mongodb.so" >> `php --ini | grep "Loaded Configuration" | sed -e "s|.*:\s*||"`
 
